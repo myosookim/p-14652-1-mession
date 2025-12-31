@@ -29,6 +29,7 @@ dependencies {
     implementation("org.springframework.boot:spring-boot-starter-webmvc")
     implementation("org.apache.kafka:kafka-streams")
     compileOnly("org.projectlombok:lombok")
+    runtimeOnly("org.springframework.boot:spring-boot-docker-compose")
     testCompileOnly("org.projectlombok:lombok")
     developmentOnly("org.springframework.boot:spring-boot-devtools")
     annotationProcessor("org.projectlombok:lombok")
